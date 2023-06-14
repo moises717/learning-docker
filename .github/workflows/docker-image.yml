@@ -28,7 +28,7 @@ jobs:
     - name: Build Docker Image
       run: | 
         docker build -t moises717/docker-graphql:0.0.2 .
-        docker build moises717/docker-graphql:latest .
+        docker build -t moises717/docker-graphql:latest .
     
     - name: Push Docker Image
       run: | 
